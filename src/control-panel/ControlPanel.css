@@ -1,0 +1,16 @@
+#control-panel {
+    background-color: #fff;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5px;
+}
+#format-actions {
+    width: 200px;
+    margin-right: 400px;
+}
+
+.format-action.active {
+    background: #ccc;
+}
